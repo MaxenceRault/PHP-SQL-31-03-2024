@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: rgb(41, 41, 41);
+}
+
+.header .logo {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.header .menu {
+  display: flex;
+  align-items: center;
+}
+
+.header .menu a {
+  margin-left: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  padding: 16px;
+}
+
+.content .sidebar {
+  width: 250px;
+  margin-right: 16px;
+}
+
+.menu-list {
+  background-color: #333;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-list li {
+  text-decoration: none;
+}
+
+.menu-list h3 {
+  text-decoration: none;
+  color: white;
+  margin-left: 25%;
+}
+
+img {
+  margin-left: 25%;
+}
+
+#tweetForm textarea {
+  width: 50%;
+  padding: 50%;
+  margin-bottom: 10px;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  resize: none;
+}
+
+#tweetForm button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  max-width: 60%;
+  margin-top: 20px;
+  padding-left: 30%;
+}
+
+.tweet {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
+  width: 140%;
+}
+
+.tweet h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.tweet li {
+  margin-bottom: 0;
+}
+
+.delete {
+  display: inline-block;
+}
+
+.delete button {
+  background-color: transparent;
+  color: rgb(41, 187, 255);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
